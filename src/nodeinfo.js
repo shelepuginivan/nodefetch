@@ -95,7 +95,7 @@ export const getPackages = async () => {
 	const yarnPackages = await getYarnPackageAmount()
 	const pnpmPackages = await getPnpmPackageAmount()
 
-	const packagesString = (npmPackages + '  ' + yarnPackages + '  ' + pnpmPackages).split('  ').join(', ')
+	const packagesString = [npmPackages, yarnPackages, pnpmPackages].filter(item => item !== '').join(', ')
 	return `${GREEN}${BOLD}Packages${RESET}: ${packagesString}`
 }
 
