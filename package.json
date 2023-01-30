@@ -1,6 +1,6 @@
 {
-  "name": "nodefetch",
-  "version": "1.0.0",
+  "name": "nodefetch-cli",
+  "version": "1.0.2",
   "description": "Node.js information CLI tool",
   "main": "src/index.js",
   "type": "module",
@@ -13,10 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shelepuginivan/nodefetch.git"
+    "url": "https://github.com/shelepuginivan/nodefetch"
   },
   "keywords": [
     "neofetch",
+    "screenfetch",
     "nodejs",
     "nodefetch",
     "CLI"
