@@ -1,6 +1,6 @@
 {
   "name": "nodefetch-cli",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Node.js information CLI tool",
   "main": "src/index.js",
   "type": "module",
